@@ -2,8 +2,10 @@ import { createStitches, globalCss, styled } from "@stitches/react";
 
 export const globalStyles = globalCss({
   "*": { margin: 0, padding: 0, boxSizing: "border-box" },
-  body: { backgroundColor: "$background", fontSize: "1.6rem" },
-  html: {fontSize: "62.5%"}
+  body: { backgroundColor: "$background", fontSize: "1.6rem"},
+  html: {fontSize: "62.5%"},
+  button: {cursor: "pointer"},
+  
 });
 
 createStitches({
